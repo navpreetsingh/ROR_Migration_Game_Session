@@ -139,4 +139,6 @@ Copy the content of file **/db/seeds.rb** in your file.
 	> group.channel_ids = 1,2,3,4,5
 	> channel = Channel.last
 	> channel.product_ids = 10,11,12,13
+	> group.channels << channel
+	> group.products
 ```
